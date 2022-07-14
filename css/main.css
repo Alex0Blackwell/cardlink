@@ -1,0 +1,39 @@
+h1 {
+    font-size: 7vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+p {
+    color: #363636;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.pad-left {
+    padding-left: 50px;
+}
+
+.no-pad-right {
+    padding-right: 0;
+}
+
+.no-pad-left {
+    padding-left: 0;
+}
+
+.ok-overflow {
+    overflow:hidden;
+}
+
+#network-mockup {
+    width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: xx-large;
+  }
+}

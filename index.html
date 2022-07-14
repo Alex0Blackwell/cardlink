@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font awesome 5! -->
-    <script src="https://kit.fontawesome.com/b3a4597ff7.js" crossorigin="anonymous"></script>
-    <title>Card Link</title>
-</head>
-<body>
-    <h1>A New Way to Network</h1>
-    <p>
-        Bring networking into the digital space with <b>Card Link</b>. Exchange
-        information with QR-codes to save interactive digital business cards.
-        Include your LinkedIn, GitHub, occupation and photograph on an ever-updating
-        networking card.
-    </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+        <!-- Font awesome 5 -->
+        <script src="https://kit.fontawesome.com/b3a4597ff7.js" crossorigin="anonymous"></script>
 
-    <button>
-        <i class="fa-solid fa-download"></i>
-        Download Coming Soon
-    </button>
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./css/main.css">
+        <title>Card Link</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 pad-left no-pad-right">
+                    <h1>Card Link</h1>
+                    <h5>A New Way to Network</h5>
+                    <p>
+                        Bring networking into the digital space with <b>Card Link</b>. Exchange
+                        information with QR-codes to save <b>interactive digital business cards</b>.
+                        Include your LinkedIn, GitHub, occupation and photograph on an ever-updating
+                        networking card.
+                    </p>
 
-    <img id="network-mockup" src="./imgs/network_page_mockup.png" alt="">
-</body>
+                    <button class="btn btn-secondary">
+                        <i class="fa-solid fa-download"></i>
+                        Download Coming Soon
+                    </button>
+                    <br><br>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/Alex0Blackwell/card-link">
+                        GitHub
+                    </a>
+
+                </div>
+                <div class="col-6 ok-overflow no-pad-left no-pad-right text-center">
+                    <img id="network-mockup" src="./imgs/network_page_mockup.png" alt="">
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
