@@ -1,15 +1,29 @@
 h1 {
-    font-size: 7vw;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
+  font-size: 100px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 p {
     color: #363636;
 }
 
+img {
+  vertical-align: top !important;
+}
+
 .container {
     margin-top: 50px;
+}
+
+
+#icon_img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 #network-mockup {
